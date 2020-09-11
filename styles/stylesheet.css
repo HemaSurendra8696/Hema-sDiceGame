@@ -9,12 +9,10 @@ body{
 	margin : auto;
 }
 h1{
-	font-size : 120px;
 	font-family: 'Lobster', cursive;
 	text-shadow: 5px 0 #232931;
 	margin:30px;
 }
-
 .dice{
 	display : inline-block;
 	font-size : 40px;
@@ -26,4 +24,10 @@ h1{
 footer{
 	text-align : center;
 	margin:60px;
+}
+.play{
+	display:inline-block;
+}
+.playbtn{
+	margin-top:40px;
 }
