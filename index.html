@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
 	<meta charser="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
 	<title>Hema's Dice Game</title>
-	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
-	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
 </head>
-<body>
+<body onload="myname()">
 	<div class="container">
-	<h1>Refresh Me</h1>
+	<h1>Play & have fun!!</h1>
 	
 	<div class="dice">
-	<p>Player1</p>
+	<p>Computer</p>
 	<img src="images/dice6.png" class="image">
 	</div>
 
 	<div class="dice">
-	<p>Player2</p>
+	<p id="playername">Player</p>
 	<img src="images/dice6.png" class="image">
 	</div>
-
+	<div class="play">
+	<button type="button" class="playbtn btn btn-secondary btn-lg" onclick="myfun()">Play</button>
+	</div>
 	</div>
 	<script src="myScript.js" charset="utf-8"></script>
 </body>
