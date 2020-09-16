@@ -9,21 +9,38 @@ body{
 	margin : auto;
 }
 h1{
-	font-size : 120px;
 	font-family: 'Lobster', cursive;
 	text-shadow: 5px 0 #232931;
 	margin:30px;
+	font-size:4em;
 }
-
 .dice{
 	display : inline-block;
-	font-size : 40px;
-
+	font-size : 2em;
+	font-weight:bold;
 }
 .image{
-	width:60%;
+	width:70%;
 }
 footer{
 	text-align : center;
 	margin:60px;
+}
+.play{
+	display:inline-block;
+}
+.playbtn{
+	margin-top:40px;
+}
+
+@media screen and (max-width:767px){
+	.image{
+		width:40%;
+	}
+}
+
+@media screen and (max-width:575px){
+	.image{
+		width:25%;
+	}
 }
